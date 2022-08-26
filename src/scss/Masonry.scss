@@ -1,0 +1,26 @@
+.gif-card{
+  .Gif{
+    border-radius: 6px;
+    .Gif-image{
+      width: 100%;
+      height: 100%;
+      border-radius: inherit;
+    }
+    &:hover {
+        transition: 0.4s;
+        opacity: 0.95;
+        box-shadow: inset 0 0 0.8em white, 0 0 0.3em black;
+  } 
+}
+}
+// nav-buttons.my-masonry-grid {
+//   display: -webkit-box; /* Not needed if autoprefixing */
+//   display: -ms-flexbox; /* Not needed if autoprefixing */
+//   display: flex;
+//   margin-left: -30px; /* gutter size offset */
+//   width: auto;
+// }
+// .my-masonry-grid_column {
+//   padding-left: 30px; /* gutter size */
+//   background-clip: padding-box;
+// }

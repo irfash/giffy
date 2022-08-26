@@ -1,0 +1,25 @@
+@import "./_vars.scss";
+
+.gif-card-list {
+    column-count: 4;
+  .gif-card {
+    margin-bottom: 1rem;
+    display: flex;
+    .gif-card--image {
+        flex: 100%;
+         margin-top: 1rem;
+         border-radius: 10px;
+         width: 50%;
+         height: 50%;
+         &:hover {
+      
+        transition: 0.4s;
+        opacity: 0.95;
+        box-shadow: inset 0 0 0.1em white, 0 0 0.3em black;
+         }
+    }
+  }
+   @media (max-width: $small-max-width) {
+                  column-count: 2;
+                }
+}
